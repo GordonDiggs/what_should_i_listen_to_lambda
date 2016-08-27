@@ -1,0 +1,15 @@
+---
+engines:
+  eslint:
+    enabled: true
+    channel: eslint-2
+  fixme:
+    enabled: true
+  markdownlint:
+    enabled: true
+ratings:
+  paths:
+  - "**.js"
+  - "**.md"
+exclude_paths:
+- node_modules/
